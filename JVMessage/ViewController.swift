@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showMessagePressed(sender: UIButton) {
-        JVMEssage.showMessage("Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.", inView: self.view)
+        JVMessage.showMessage("Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.", inView: self.view)
     }
 
     @IBAction func showErrorMessagePressed(sender: UIButton) {
-        JVMEssage.showErrorMessage("Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.", inView: self.view)
+        JVMessage.showErrorMessage("Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.", inView: self.view)
     }
 }
 

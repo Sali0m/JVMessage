@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JVMEssage: NSObject {
+class JVMessage: NSObject {
     static func showMessage(text: String, inView: UIView, font: UIFont = UIFont.systemFontOfSize(14), textColor: UIColor = UIColor.whiteColor(), backgroundColor: UIColor = UIColor.grayColor(), edgeInset: UIEdgeInsets = UIEdgeInsetsZero) {
         dispatch_async(dispatch_get_main_queue()) { () -> Void in
             let messageView = JVMessageView(text: text, font: font, textColor: textColor, backgroundColor: backgroundColor)
