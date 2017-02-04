@@ -1,0 +1,16 @@
+PODS:
+  - JVMessage (0.1.0)
+
+DEPENDENCIES:
+  - JVMessage (from `../`)
+
+EXTERNAL SOURCES:
+  JVMessage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVMessage: 9431fe13a8cb60cfaf95e0b9dba8fa14680a3710
+
+PODFILE CHECKSUM: 37121c2d11958c90672e6df9d867276a4f1b9ba6
+
+COCOAPODS: 1.1.1

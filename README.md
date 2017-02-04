@@ -1,15 +1,44 @@
 # JVMessage
 
+[![CI Status](http://img.shields.io/travis/Sali0m/JVMessage.svg?style=flat)](https://travis-ci.org/Sali0m/JVMessage)
+[![Version](https://img.shields.io/cocoapods/v/JVMessage.svg?style=flat)](http://cocoapods.org/pods/JVMessage)
+[![License](https://img.shields.io/cocoapods/l/JVMessage.svg?style=flat)](http://cocoapods.org/pods/JVMessage)
+[![Platform](https://img.shields.io/cocoapods/p/JVMessage.svg?style=flat)](http://cocoapods.org/pods/JVMessage)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+### CocoaPods
+
+JVMessage is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "JVMessage"
+```
+
+### Manually
+
+Import the file JVMessage.swift in your project.
+
+## Author
+
+Sali0m, jehan.vossen@gmail.com
+
+## License
+
+JVMessage is available under the MIT license. See the LICENSE file for more info.
+
+# JVMessage
 
 ![example](http://www.saliom.be/githubImg/JVMessage.gif)
 
 JVMessage is a simple way of showing a temporary message, some may call it a toaster. It's currently showing at bottom of the desired view.
-
-## Installation
-
-`CocoaPods` will be coming soon
-
-For now import the file JVMessage.swift in your project.
 
 ## Usage
 ```

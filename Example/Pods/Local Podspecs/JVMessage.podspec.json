@@ -1,0 +1,22 @@
+{
+  "name": "JVMessage",
+  "version": "0.1.0",
+  "summary": "A short description of JVMessage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sali0m/JVMessage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sali0m": "jehan.vossen@tapptic.com"
+  },
+  "source": {
+    "git": "https://github.com/Sali0m/JVMessage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JVMessage/Classes/**/*"
+}

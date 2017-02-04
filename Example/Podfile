@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JVMessage_Example' do
+  pod 'JVMessage', :path => '../'
+
+  target 'JVMessage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

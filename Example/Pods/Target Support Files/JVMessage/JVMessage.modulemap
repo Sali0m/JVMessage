@@ -1,0 +1,6 @@
+framework module JVMessage {
+  umbrella header "JVMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

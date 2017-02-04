@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JVMessage
 
 class ViewController: UIViewController {
 
@@ -20,11 +21,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func showMessagePressed(sender: UIButton) {
+    @IBAction func showMessagePressed(_ sender: UIButton) {
         JVMessage.showMessage("Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.", inView: self.view)
     }
 
-    @IBAction func showErrorMessagePressed(sender: UIButton) {
+    @IBAction func showErrorMessagePressed(_ sender: UIButton) {
         JVMessage.showErrorMessage("Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.", inView: self.view)
     }
 }
