@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 s.version          = '1.0.0'
   s.summary          = 'Easily show a toaster'
 
-  s.description      = JVMessage is a simple way of showing a temporary message, some may call it a toaster. It's currently showing at bottom of the desired view.
+  s.description      = "JVMessage is a simple way of showing a temporary message, some may call it a toaster. It's currently showing at bottom of the desired view."
 
   s.homepage         = 'https://github.com/Sali0m/JVMessage'
   s.screenshots      = 'http://www.saliom.be/githubImg/JVMessage.gif'
