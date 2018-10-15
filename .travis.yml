@@ -7,7 +7,8 @@ language: Swift
 cache: cocoapods
 podfile: Example/Podfile
 xcode_workspace: Example/JVMessage.xcworkspace # path to your xcodeproj folder
-xcode_scheme: JVMessage_Example
+xcode_scheme: JVMessage-Example
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone 5s
 script:
+- xcodebuild -workspace Example/JVMessage.xcworkspace -scheme JVMessage-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 - pod lib lint
