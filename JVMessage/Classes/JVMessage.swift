@@ -72,7 +72,7 @@ internal class JVMessageView: UIView {
         super.init(coder: aDecoder)
     }
     
-    func didTap(_ gesture: UITapGestureRecognizer) {
+    @objc func didTap(_ gesture: UITapGestureRecognizer) {
         self.showingTimer.invalidate()
         self.showingTimer = nil
         self.removeFromSuperview()
@@ -83,11 +83,11 @@ internal class JVMessageView: UIView {
         self.showingTimer = Timer.scheduledTimer(timeInterval: self.timeNeeded(text), target: self, selector: #selector(JVMessageView.didFinishShowing(_:)), userInfo: nil, repeats: false)
     }
     
-    func didFinishShowing(_ timer: Timer) {
+    @objc func didFinishShowing(_ timer: Timer) {
         self.removeFromSuperview()
     }
     
     fileprivate func timeNeeded(_ text: String) -> TimeInterval {
-        return min(Double(Double(text.characters.count)*0.06 + 0.5), 5.0)
+        return min(Double(Double(text.count)*0.06 + 0.5), 5.0)
     }
 }
