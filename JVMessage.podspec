@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JVMessage'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
   s.summary          = 'Easily show a toaster'
 
   s.description      = "JVMessage is a simple way of showing a temporary message, some may call it a toaster. It's currently showing at bottom of the desired view."
@@ -19,6 +19,7 @@ s.version          = '1.0.0'
   s.author           = { 'Sali0m' => 'jehan.vossen@gmail.com' }
   s.source           = { :git => 'https://github.com/Sali0m/JVMessage.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/Sali0m'
+  s.swift_version = "4.1"
 
   s.ios.deployment_target = '9.0'
 
